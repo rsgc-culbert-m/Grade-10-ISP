@@ -13,11 +13,6 @@ void draw() {
   color rectcolor;
   //boolean puts veryables into the button 
   boolean rectOver= false;
-  size (300,300);
+  size (300, 300);
   rectColor= color(0);
-  
-  
-  
- 
-  
 }
