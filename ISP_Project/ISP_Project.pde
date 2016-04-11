@@ -15,4 +15,6 @@ void draw() {
   boolean rectOver= false;
   size (300, 300);
   rectColor= color(0);
+  rectHighliqght= color(0);
+  
 }
