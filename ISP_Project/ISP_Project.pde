@@ -8,16 +8,22 @@ void draw() {
   //making backgroud and base
   fill(150);
   rect (200, 100, 350, 500);
-  size (20, 20);
 
-  int rectX, rectY;
-  int rectsize= 70;
-  color rectcolor;
-  //boolean puts veryables into the button 
-  boolean rectOver= false;
-  size (300, 300);
-
-  fill(0);
+  //tittle 
+  fill(255);
   textSize(24);
-  text("Golf game plus.", 100, 350);
+  text("Golf game plus.", 275, 150);
+
+  //making first button
+  fill(255);
+  rect(220, 510, 75, 75);
+  fill(0);
+  textSize(32);
+  text("- 1", 230, 500);
+
+  //making second button
+  fill(255);
+  rect(450, 510, 75, 75);
+  textSize(32);
+  text("+ 1", 460, 500);
 }
