@@ -20,7 +20,7 @@ void draw() {
   rect(220, 510, 75, 75);
   fill(0);
   textSize(38);
-  text("- 1", 230, 560);
+  text("-1", 240, 560);
 
 
   //making second button
@@ -29,5 +29,8 @@ void draw() {
   rect(450, 510, 75, 75);
   fill(0);
   textSize(38);
-  text("+ 1", 450, 560);
-}
+  text("+1", 460, 560);
+
+   if(mouseX<220 && mouse<510 && mouseX>295 && mouseY<585){
+     
+  
