@@ -31,6 +31,6 @@ void draw() {
   textSize(38);
   text("+1", 460, 560);
 
-   if(mouseX<220 && mouse<510 && mouseX>295 && mouseY<585){
-     
-  
+  if (mouseX<220 && mouseY<510 && mouseX>295 && mouseY<585) {
+  }
+}
