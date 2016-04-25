@@ -40,12 +40,10 @@ void draw() {
   //making number square
   fill(255);
   rect (230, 270, 75, 75);
-  
+
   fill(255);
   rect ( 340, 270, 75, 75);
-  
+
   fill(255);
   rect (450, 270, 75, 75);
-  
-  
 }
