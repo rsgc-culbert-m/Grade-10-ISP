@@ -1,7 +1,7 @@
 void setup() {
 
   //make canvas
-  size(800, 700);
+  size(600, 610);
 }
 
 void draw() {
@@ -30,12 +30,22 @@ void draw() {
   fill(0);
   textSize(38);
   text("+1", 460, 560);
-  
-//added boulean for subtracting
+
+  //added boulean for subtracting
   if (mouseX<220 && mouseY<510 && mouseX>295 && mouseY<585) {
-    
   }
   //added boulean for adding
   if (mouseX<450 && mouseY<510 && mouseX<525 && mouseY<585) {
   }
+  //making number square
+  fill(255);
+  rect (230, 270, 75, 75);
+  
+  fill(255);
+  rect ( 340, 270, 75, 75);
+  
+  fill(255);
+  rect (450, 270, 75, 75);
+  
+  
 }
