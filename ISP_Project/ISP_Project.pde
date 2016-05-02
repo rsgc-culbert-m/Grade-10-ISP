@@ -32,10 +32,10 @@ void draw() {
   text("+1", 460, 560);
 
   //added boulean for subtracting
-  if (mouseX<220 && mouseY<510 && mouseX>295 && mouseY<585) {
+  if (mouseX>220 && mouseY>510 && mouseX<295 && mouseY<585) {
   }
   //added boulean for adding
-  if (mouseX<450 && mouseY<510 && mouseX<525 && mouseY<585) {
+  if (mouseX>450 && mouseY>510 && mouseX<525 && mouseY<585) {
   }
   //making number square
   fill(255);
