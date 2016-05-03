@@ -1,4 +1,5 @@
-int player1score =1;
+int player1score =0;
+int player10score =-0;
 boolean pressed1;
 
 void setup() {
@@ -33,7 +34,7 @@ void draw() {
   fill(0);
   textSize(38);
   text("+1", 460, 560);
-   
+
   //making number square
   fill(255);
   rect (230, 270, 75, 75);
@@ -43,8 +44,18 @@ void draw() {
 
   fill(255);
   rect (450, 270, 75, 75);
-  
-    //added boulean for subtracting
+
+
+  //this makes the number stay
+  if (pressed1) {
+    fill(0);
+    text(player1score, 475, 325);
+  }
+}
+
+
+void mouseClicked() {
+  //added boulean for subtracting
   if (mouseX>220 && mouseY>510 && mouseX<295 && mouseY<585) {
     player1score -=1;
   }
@@ -54,14 +65,5 @@ void draw() {
     fill(0);
     //text(, 475, 325);
     pressed1=true;
-    
-
-    
-}
-if (pressed1){
-  fill(0);
-    text(player1score, 475, 325);
-  
-}
-
+  }
 }
