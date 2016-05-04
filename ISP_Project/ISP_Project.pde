@@ -36,20 +36,18 @@ void draw() {
   text("+1", 460, 560);
 
   //making number square
-  fill(255);
-  rect (230, 270, 75, 75);
+
 
   fill(255);
-  rect ( 340, 270, 75, 75);
+  rect ( 300, 270, 150, 75);
 
-  fill(255);
-  rect (450, 270, 75, 75);
+
 
 
   //this makes the number stay
   if (pressed1) {
     fill(0);
-    text(player1score, 475, 325);
+    text(player1score, 345, 325);
   }
 }
 
@@ -63,7 +61,7 @@ void mouseClicked() {
   if (mouseX>450 && mouseY>510 && mouseX<525 && mouseY<585) {
     player1score +=1;
     fill(0);
-    //text(, 475, 325);
+    // text(, 475, 325);
     pressed1=true;
   }
 }
